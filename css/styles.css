@@ -1,0 +1,133 @@
+* {
+    font-family: "Open Sans", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* limite da borda correta padronizado */
+}
+
+body {
+    background-color: #586C44;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 2.5%;
+}
+
+#logo img {
+    width: 140px;
+}
+
+#socials {
+    position: absolute;
+    left: 16%;
+    top: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials-p {
+    color: #FFF;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #586C44;
+    padding: 20px;
+    list-style: none;
+    height: 150px;
+}
+
+#navbar li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10px;
+    padding: 5px;
+    width: 700px;
+}
+
+#navbar .nav-link {
+    color: #FFF;
+    text-decoration: none;
+    transition: .5s;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 15px;
+}
+
+#navbar .nav-link:hover {
+    color: greenyellow;
+}
+
+#navbar .search-container {
+    float: right;
+}
+
+#navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+  
+#navbar .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+  
+#navbar .search-container button:hover {
+    background: #ccc;
+}
+
+
+/* ICONS SOCIALS */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #427E40;
+    color: white;
+}
+
+.fa-youtube {
+    background: #427E40;
+    color: white;
+}
+  
+.fa-instagram {
+    background: #427E40;
+    color: white;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #538051;
+    color: #FFF;
+    padding: 50px 0;
+}
