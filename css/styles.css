@@ -131,3 +131,27 @@ footer {
     color: #FFF;
     padding: 50px 0;
 }
+
+/* MOBILE */
+
+@media(max-width: 490px){
+    header {
+        width: 100%;
+    }
+
+    #logo {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        left: 0;
+        width: 140px;
+    }
+
+    #navbar {
+        display: none;        
+    }
+
+    #socials {
+        display: none;
+    }
+}
