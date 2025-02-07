@@ -29,11 +29,27 @@
         <nav>
             <ul id="navbar">
                 <li>
-                    <a class="nav-link" href="">Home</a>
-                    <a class="nav-link" href="">Produtos</a>
-                    <a class="nav-link" href="">Manual</a>
+                    <a class="nav-link" href="<?= $BASE_URL ?>">Home</a>
+                    <a class="nav-link" href="<?= $BASE_URL ?>produtos.php">Produtos</a>
+                    <a class="nav-link" href="<?= $BASE_URL ?>manual.php">Manual</a>
                 </li>
+                <div>
+                    <div>
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-8 col-lg-6">
+                                <div class="search-container position-relative">
+                                    <form >
+                                        <input class="form-control search-input ps-5" type="search"
+                                            placeholder="Pesquisar produto" aria-label="Search">
+                                        <button class="btn btn-search ms-2" type="submit">Pesquisar</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div><i class="fa fa-user fa-3x"></i></div>  
+                <div><i class="fa fa-shopping-cart fa-3x"></i></div>
             </ul>
         </nav>
-        
     </header>
