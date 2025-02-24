@@ -2,7 +2,8 @@
   font-family: "Open Sans", serif;
   padding: 0;
   margin: 0;
-  box-sizing: border-box; /* limite da borda correta padronizado */
+  box-sizing: border-box;
+  /* limite da borda correta padronizado */
 }
 
 /* .moon-dance {
@@ -23,20 +24,22 @@
 }
 
 .titulo-perguntas-frequente {
-    font-family: "Moon Dance", cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: #fff;
-    font-size: 35px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-  }
+  font-family: "Moon Dance", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  font-size: 35px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
 
 body {
   background-color: #586c44;
   align-items: center;
   justify-items: center;
 }
+
+/* HEADER */
 
 #logo {
   position: absolute;
@@ -72,14 +75,13 @@ body {
 
 #navbar li {
   display: flex;
-  left: 11%;
+  left: 13%;
   position: relative;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   margin: 0 10px;
   padding: 5px;
-  width: 700px;
-  /* background-color: red; */
+  width: 500px;
 }
 
 #navbar .nav-link {
@@ -101,9 +103,8 @@ swiper-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%; /* Ajuste a largura conforme necessário */
-  /* max-width: 600px; Evita que fique muito grande */
-  height: 500px; /* Ajuste a altura conforme necessário */
+  width: 80%;
+  height: 500px;
   margin: auto;
 }
 
@@ -112,15 +113,15 @@ swiper-slide .card {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%; /* Ajusta a largura do slide */
+  width: 100%;
   height: 100%;
 }
 
 swiper-slide .sliderText img {
-  width: 100%; /* Faz a imagem ocupar 100% da largura do slide */
-  height: 100%; /* Faz a imagem ocupar 100% da altura do slide */
-  object-fit: contain; /* Garante que a imagem se ajuste sem cortar */
-  border-radius: 10px; /* Opcional: bordas arredondadas */
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
 }
 
 .swiper {
@@ -241,6 +242,52 @@ swiper-slide .sliderText img {
   position: absolute;
 }
 
+/* FAQ */
+.faq {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.faq-item h3 {
+  cursor: pointer;
+  padding: 10px;
+  margin: 0;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-item h3::after {
+  content: '\25BC';
+  /* Unicode para seta para baixo */
+  font-size: 14px;
+  transition: transform 0.3s;
+}
+
+.faq-item.active h3::after {
+  transform: rotate(180deg);
+}
+
+.faq-item p {
+  display: none;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.faq-item.active p {
+  display: block;
+}
+
 /* FOOTER */
 
 footer {
@@ -264,7 +311,7 @@ footer {
   transition: all 0.3s ease;
   justify-items: center;
   position: relative;
-  left: 40%;
+  left: 30%;
 }
 
 .search-container:hover {
@@ -297,6 +344,14 @@ footer {
 .btn-search:hover {
   background-color: #427e40;
   transform: scale(1.05);
+}
+
+/* CARRINHO */
+
+.body-carrinho{
+  background-color: #fff;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* MOBILE */

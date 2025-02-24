@@ -165,6 +165,48 @@ include_once("templates/header.php");
 
 <p class="titulo-perguntas-frequente">PERGUNTAS FREQUENTES</p>
 
+<!-- FAQ -->
+<div class="faq">
+
+  <div class="faq-item">
+    <h3>Para quem é e para qual finalidade?</h3>
+    <p>HTML é a linguagem de marcação utilizada para criar páginas na web.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Contraindicações e formas de uso.</h3>
+    <p>CSS é a linguagem usada para estilizar elementos HTML.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Que tipo de resultado é possível ter com a Escova AH?</h3>
+    <p>JavaScript é uma linguagem de programação que permite adicionar interatividade às páginas web.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Tem garantia e suporte?</h3>
+    <p>JavaScript é uma linguagem de programação que permite adicionar interatividade às páginas web.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Qual o rendimento e como posso faturar com a Escova AH?</h3>
+    <p>JavaScript é uma linguagem de programação que permite adicionar interatividade às páginas web.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Quais são os componentes e ativos da Escova AH?</h3>
+    <p>JavaScript é uma linguagem de programação que permite adicionar interatividade às páginas web.</p>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.faq-item h3').forEach(item => {
+    item.addEventListener('click', () => {
+      const parent = item.parentElement;
+      parent.classList.toggle('active');
+    });
+  });
+</script>
+
 <?php
 include_once("templates/footer.php");
 ?>
