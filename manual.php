@@ -20,9 +20,6 @@ include_once('templates/header.php');
 </p>
 
 <div class="videos-manual">
-
-
-
     <div class="card-video">
     <iframe width="100%" height="85%" style="padding: 15px 15px 0 15px;" src="https://www.youtube.com/embed/1QRiOS6Ue-w" frameborder="0" allowfullscreen></iframe>
         <h2 class="titulo-card-videos" style="display: flex; justify-content: center; align-items: flex-end; height: 50px">SOLTURA DE CACHOS</h2>
@@ -34,7 +31,6 @@ include_once('templates/header.php');
         <h2 class="titulo-card-videos" style="display: flex; justify-content: center; align-items: flex-end; height: 50px">RETOQUE DE ESCOVA AH</h2>
 
     </div>
-
 </div>
 
 
