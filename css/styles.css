@@ -155,7 +155,7 @@ body {
 
 #navbar li {
   display: flex;
-  left: 13%;
+  left: 4%;
   position: relative;
   justify-content: space-evenly;
   align-items: center;
@@ -184,22 +184,6 @@ body {
   /* max-width: 100%; */
   width: 100%;
   /* align-items: ; */
-}
-
-.card-video {
-  width: 39%;
-  height: 380px;
-  border-radius: 3px;
-  margin-right: 5px;
-  background-color: #fff;
-  /* padding: 10px 10px 70px 10px; */
-}
-
-.titulo-card-videos {
-  font-family: "Roboto Slab", serif;
-  font-size: 18px;
-  color: #586c44;
-  padding-bottom: 5px;
 }
 
 /* CAROUSSEL */
@@ -414,11 +398,6 @@ swiper-slide .sliderText img {
   object-fit: fill;
 }
 
-/* .titulo-manual {
-  display: flex;
-  margin-top: -20px;
-} */
-
 .titulo-personalizado-manual {
   font-family: "Carter One", serif;
   font-weight: 400;
@@ -438,11 +417,72 @@ swiper-slide .sliderText img {
 
 .descricao-titulo-manual {
   text-align: center;
-  width: 80%;
+  width: 60%;
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 15px;
   margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.card-video {
+  width: 30%;
+  height: 380px;
+  border-radius: 3px;
+  margin-right: 5px;
+  background-color: #fff;
+  /* padding: 10px 10px 70px 10px; */
+}
+
+.titulo-card-videos {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  color: #586c44;
+  padding-bottom: 5px;
+}
+
+.download-manuais {
+  width: 100%;
+  background-color: #cdd6cb;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 45px;
+}
+
+.titulo-download-manuais {
+  /* display: block; Garante que o título ocupe a linha toda */
+  margin-bottom: 10px; /* Espaço abaixo do título */
+  text-align: center;
+  font-size: 18px;
+  color: #333333;
+  font-family: 'Roboto Slab', 'serif';
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 10px; /* Espaçamento entre os inputs */
+  margin-top: 35px;
+}
+
+.form-container input {
+  /* width: 00px; */
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.form-container button {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 50px;
+  background-color: #40803f;
+  color: #fff;
+  border: none;
 }
 
 /* FOOTER */
