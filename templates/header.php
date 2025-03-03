@@ -1,5 +1,6 @@
 <?php
     include_once('helpers/url.php');
+    include_once('model/produtos_model.php');
 ?>
 
 <!DOCTYPE html>

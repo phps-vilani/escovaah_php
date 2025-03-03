@@ -217,7 +217,7 @@ swiper-slide .sliderText img {
   width: 95%;
 }
 
-/* PRODUTOS ESCOVA AH */
+/* PRODUTOS DASHBOARD ESCOVA AH */
 
 .grid-produtos {
   display: flex;
@@ -378,6 +378,68 @@ swiper-slide .sliderText img {
   display: block;
 }
 
+/* PRODUTOS */
+
+.tela-produtos {
+  /* height: 100vh; */
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tela-produtos h2 {
+  font-family: "Moon Dance", "serif";
+  display: block;
+  margin-top: 115px;
+  font-size: 22px;
+}
+
+.preco-tela-produtos {
+  color: #57BF6D; /* Cor original do preço */
+  display: inline;
+}
+
+.frete-gratis {
+  color: black;
+  font-weight: bold;
+}
+
+.botao-comprar-tela-produto {
+  margin-top: 15px;
+  flex: block;
+  width: 100%;
+  background-color: #40803F;
+  color: #fff;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+.produtos-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+  gap: 20px; /* Espaçamento entre os produtos */
+  /* background-color: rebeccapurple; */
+  width: 60%;
+  padding: 20px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.tela-produtos-card-produto img {
+  width: 100%;
+}
+
+.tela-produtos-card-produto p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
 /* MANUAL */
 
 .manual {
@@ -458,7 +520,7 @@ swiper-slide .sliderText img {
   text-align: center;
   font-size: 18px;
   color: #333333;
-  font-family: 'Roboto Slab', 'serif';
+  font-family: "Roboto Slab", "serif";
 }
 
 .form-container {
