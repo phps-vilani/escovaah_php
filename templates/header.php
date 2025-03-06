@@ -1,10 +1,11 @@
 <?php
-    include_once('helpers/url.php');
-    include_once('model/produtos_model.php');
+include_once('helpers/url.php');
+include_once('model/produtos_model.php');
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <a href="" id="logo">
@@ -26,9 +28,9 @@
         </a>
         <div id="socials">
             <p class="socials-p">Siga-nos nas redes sociais:</p>
-            <a class="fa fa-facebook"href=""></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-youtube"></a>
+            <a href="https://www.facebook.com/profile.php?id=100074327930624" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/escovaah/" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/@escovaah183" class="fa fa-youtube"></a>
         </div>
         <nav>
             <ul id="navbar">
@@ -42,7 +44,7 @@
                         <div class="row justify-content-center">
                             <div class="col-12 col-md-8 col-lg-6">
                                 <div class="search-container position-relative">
-                                    <form >
+                                    <form>
                                         <input class="form-control search-input ps-5" type="search"
                                             placeholder="Pesquisar produto" aria-label="Search">
                                         <button class="btn btn-search ms-2" type="submit">Pesquisar</button>
@@ -52,7 +54,7 @@
                         </div>
                     </div>
                 </div>
-                <div><i class="fa fa-user fa-2x"></i></div>  
+                <div><i class="fa fa-user fa-2x"></i></div>
                 <div><i class="fa fa-shopping-cart fa-2x"></i></div>
             </ul>
         </nav>
