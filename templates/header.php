@@ -23,7 +23,7 @@ include_once('model/produtos_model.php');
 
 <body>
     <header>
-        <a href="" id="logo">
+        <a href="<?= $BASE_URL ?>" id="logo">
             <img src="<?= $BASE_URL ?>assets/logo.png" alt="logo">
         </a>
         <div id="socials">
@@ -54,7 +54,7 @@ include_once('model/produtos_model.php');
                         </div>
                     </div>
                 </div>
-                <div><i class="fa fa-user fa-2x"></i></div>
+                <div><i href="dados_usuario.php" class="fa fa-user fa-2x"></i></div>
                 <div><i class="fa fa-shopping-cart fa-2x"></i></div>
             </ul>
         </nav>

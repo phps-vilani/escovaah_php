@@ -547,6 +547,34 @@ swiper-slide .sliderText img {
   border: none;
 }
 
+/* DETALHES DO USUARIO */
+
+.tela-detalhes-usuario {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+
+}
+
+.tela-detalhes-usuario p {
+  display: block;
+  font-family: 'Roboto Slab', 'serif';
+  color: rgb(97, 97, 97);
+}
+
+.tela-detalhes-usuario h2 {
+  font-size: 36px;
+}
+
+.tela-detalhes-usuario a {
+  font-size: 22px;
+}
+
 /* FOOTER */
 
 footer {
