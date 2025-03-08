@@ -398,7 +398,7 @@ swiper-slide .sliderText img {
 }
 
 .preco-tela-produtos {
-  color: #57BF6D; /* Cor original do preço */
+  color: #57bf6d; /* Cor original do preço */
   display: inline;
 }
 
@@ -411,7 +411,7 @@ swiper-slide .sliderText img {
   margin-top: 15px;
   flex: block;
   width: 100%;
-  background-color: #40803F;
+  background-color: #40803f;
   color: #fff;
   height: 40px;
   border: none;
@@ -552,18 +552,18 @@ swiper-slide .sliderText img {
 .tela-detalhes-usuario {
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #fff;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
   align-items: center;
-  padding: 15px;
-
+  padding-top: 70px;
+  padding-bottom: 40px;
 }
 
 .tela-detalhes-usuario p {
   display: block;
-  font-family: 'Roboto Slab', 'serif';
+  font-family: "Roboto Slab", "serif";
   color: rgb(97, 97, 97);
 }
 
@@ -573,6 +573,62 @@ swiper-slide .sliderText img {
 
 .tela-detalhes-usuario a {
   font-size: 22px;
+  color: #538051;
+}
+
+.row-cards-minha-conta {
+  margin-top: 50px;
+  display: flex;
+  gap: 15px; /* Espaço entre os cards */
+  justify-content: center;
+  flex-wrap: wrap; /* Permite quebra em telas menores */
+}
+
+.card-minha-conta {
+  background-color: #fff; /* Fundo branco para um visual clean */
+  border: none; /* Remove a borda */
+  border-radius: 15px; /* Cantos arredondados */
+  padding: 20px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o conteúdo */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px; /* Largura do card */
+  height: 120px; /* Altura mais retangular */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Efeito ao passar o mouse */
+.card-minha-conta:hover {
+  transform: translateY(-5px); /* Levanta um pouco o card */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15); /* Sombra mais intensa */
+}
+
+.card-minha-conta i {
+  font-size: 32px; /* Tamanho do ícone */
+  color: #333; /* Cor escura para contraste */
+  margin-bottom: 8px; /* Espaço entre o ícone e o texto */
+}
+
+.card-minha-conta span {
+  margin-top: 10px;
+  font-size: 18px; /* Tamanho do texto */
+  color: #555; /* Cinza escuro para um visual sofisticado */
+  font-weight: 500;
+}
+
+.card-minha-conta img {
+  height: 50px;
+}
+
+.conteudo-tela-detalhes-usuario {
+  margin-top: 50px;
+}
+
+.conteudo-tela-detalhes-usuario a {
+  font-size: 16px;
 }
 
 /* FOOTER */
@@ -631,14 +687,6 @@ footer {
 .btn-search:hover {
   background-color: #427e40;
   transform: scale(1.05);
-}
-
-/* CARRINHO */
-
-.body-carrinho {
-  background-color: #fff;
-  max-width: 100%;
-  max-height: 100%;
 }
 
 /* MOBILE */

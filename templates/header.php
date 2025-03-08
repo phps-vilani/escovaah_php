@@ -10,6 +10,7 @@ include_once('model/produtos_model.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?= $BASE_URL ?>css/styles.css">
+    <link rel="stylesheet" href="<?= $BASE_URL ?>css/carrinho.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Escova AH</title>
     <!-- FONTS DO PROJETO -->
@@ -54,8 +55,16 @@ include_once('model/produtos_model.php');
                         </div>
                     </div>
                 </div>
-                <div><i href="dados_usuario.php" class="fa fa-user fa-2x"></i></div>
-                <div><i class="fa fa-shopping-cart fa-2x"></i></div>
+                <div>
+                    <a href="<?= $BASE_URL ?>dados_usuario.php">
+                        <i class="fa fa-user fa-2x"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="<?= $BASE_URL ?>carrinho.php">
+                        <i class="fa fa-shopping-cart fa-2x"></i>
+                    </a>
+                </div>
             </ul>
         </nav>
     </header>
